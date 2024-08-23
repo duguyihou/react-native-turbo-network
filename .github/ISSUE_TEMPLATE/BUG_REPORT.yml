@@ -7,7 +7,6 @@ body:
     attributes:
       label: What's happening?
       description: Explain what you are trying to do and what happened instead. Be as precise as possible, I can't help you if I don't understand your issue.
-      placeholder: ""
     validations:
       required: true
   - type: textarea
@@ -18,7 +17,6 @@ body:
         Most importantly, share how you use the `TurboNetwork` and what props you pass to it.
         This will be automatically formatted into code, so no need for backticks.
       render: tsx
-      placeholder: >
 
     validations:
       required: true
@@ -33,7 +31,6 @@ body:
 
         * For Android, either open the project through Android Studio and paste the logs from the logcat window, or run `adb logcat` in terminal.
       render: shell
-      placeholder: >
     validations:
       required: true
   - type: input
